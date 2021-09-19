@@ -1,9 +1,12 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
 /* The side navigation menu */
 .sidebar {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: #d1d1d1;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -21,6 +24,7 @@
   .sidebar a.active {
     background-color: #000000;
     color: white;
+    font-size: 20px;
   }
   
   /* Links on mouse-over */
@@ -33,7 +37,8 @@
   div.content {
     margin-left: 200px;
     padding: 1px 16px;
-    height: 1000px;
+    height: auto;
+    background-color: white;
   }
   
   /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -54,3 +59,81 @@
       float: none;
     }
   }
+
+  .header {
+      margin-top: 40px;
+      font-size: 60px;
+  }
+
+  .contact {
+      margin-top: auto;
+      display: flex;
+      justify-content: center;
+  }
+
+  .facebook {
+    margin-top: 30px;
+  }
+
+  .shake-horizontal {
+	-webkit-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+ @-webkit-keyframes shake-horizontal {
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateX(-10px);
+              transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateX(10px);
+              transform: translateX(10px);
+    }
+    80% {
+      -webkit-transform: translateX(8px);
+              transform: translateX(8px);
+    }
+    90% {
+      -webkit-transform: translateX(-8px);
+              transform: translateX(-8px);
+    }
+  }
+  @keyframes shake-horizontal {
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateX(-10px);
+              transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateX(10px);
+              transform: translateX(10px);
+    }
+    80% {
+      -webkit-transform: translateX(8px);
+              transform: translateX(8px);
+    }
+    90% {
+      -webkit-transform: translateX(-8px);
+              transform: translateX(-8px);
+    }
+  }
+  
