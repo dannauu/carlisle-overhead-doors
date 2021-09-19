@@ -28,7 +28,7 @@ const Contact = () => {
 
   return (
     <div className="content">
-      <h1 className="text-center header shake-horizontal">
+      <h1 className="text-center header tracking-in-expand-fwd-top">
         Have a question? Get in touch with us!
       </h1>
 
@@ -79,7 +79,7 @@ const Contact = () => {
           <div className="col-8 pt-3 mx-auto">
             <input
               type="submit"
-              className="btn btn-dark"
+              className="btn btn-success"
               value="Send Message"
             ></input>
           </div>

@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+import ImageSlider from "./ImageSlider";
 
 const Gallery = () => {
-    return (
-        <div  className='content'>
-            <h1>Gallery</h1>
-        </div>
-    )
-}
+  return (
+    <div className="content">
+      <div className="col">
+        <h1 className="text-center header tracking-in-expand-fwd-top">
+          Carlisle Overhead Doors and Services
+        </h1>
+      </div>
+      <ImageSlider />
+    </div>
+  );
+};
 
-export default Gallery
+export default Gallery;
