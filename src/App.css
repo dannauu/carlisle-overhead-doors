@@ -1,194 +1,38 @@
-body {
-    font-family: 'Oswald', sans-serif;
-}
-/* The side navigation menu */
-.sidebar {
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #d1d1d1;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-  }
-  
-  /* Sidebar links */
-  .sidebar a {
-    display: block;
-    color: blue;
-    padding: 16px;
-    text-decoration: none;
-  }
-  
-  /* Active/current link */
-  .sidebar a.active {
-    background-color: #000000;
-    color: white;
-    font-size: 20px;
-  }
-  
-  /* Links on mouse-over */
-  .sidebar a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-  }
-  
-  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-  div.content {
-    margin-left: 200px;
-    padding: 1px 16px;
-    height: auto;
-    background-color: white;
-  }
-  
-  /* On screens that are less than 700px wide, make the sidebar into a topbar */
-  @media screen and (max-width: 700px) {
-    .sidebar {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    .sidebar a {float: left;}
-    div.content {margin-left: 0;}
-  }
-  
-  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-  @media screen and (max-width: 400px) {
-    .sidebar a {
-      text-align: center;
-      float: none;
-    }
-  }
-
-  .header {
-      margin-top: 40px;
-      margin-bottom: 20px;
-      font-size: 60px;
-  }
-
-  .contact {
-      margin-top: auto;
-      display: flex;
-      justify-content: center;
-  }
-
-  .facebook {
-    margin-top: 30px;
-  }
-
-  .shake-horizontal {
-	-webkit-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-	        animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+.App {
+  text-align: center;
 }
 
- @-webkit-keyframes shake-horizontal {
-    0%,
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-    }
-    10%,
-    30%,
-    50%,
-    70% {
-      -webkit-transform: translateX(-10px);
-              transform: translateX(-10px);
-    }
-    20%,
-    40%,
-    60% {
-      -webkit-transform: translateX(10px);
-              transform: translateX(10px);
-    }
-    80% {
-      -webkit-transform: translateX(8px);
-              transform: translateX(8px);
-    }
-    90% {
-      -webkit-transform: translateX(-8px);
-              transform: translateX(-8px);
-    }
-  }
-  @keyframes shake-horizontal {
-    0%,
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-    }
-    10%,
-    30%,
-    50%,
-    70% {
-      -webkit-transform: translateX(-10px);
-              transform: translateX(-10px);
-    }
-    20%,
-    40%,
-    60% {
-      -webkit-transform: translateX(10px);
-              transform: translateX(10px);
-    }
-    80% {
-      -webkit-transform: translateX(8px);
-              transform: translateX(8px);
-    }
-    90% {
-      -webkit-transform: translateX(-8px);
-              transform: translateX(-8px);
-    }
-  }
-  
-  
-  .galleryP {
-    font-size: 20px;
-  }
-
-  .prev, .next {
-    color: black !important;
-  }
-
-  img {
-    border: black solid 2px;
-  }
-
-  .tracking-in-expand-fwd-top {
-    -webkit-animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-            animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-  }
-
-@-webkit-keyframes tracking-in-expand-fwd-top {
-  0% {
-    letter-spacing: -0.5em;
-    -webkit-transform: translateZ(-700px) translateY(-500px);
-            transform: translateZ(-700px) translateY(-500px);
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    -webkit-transform: translateZ(0) translateY(0);
-            transform: translateZ(0) translateY(0);
-    opacity: 1;
-  }
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
-@keyframes tracking-in-expand-fwd-top {
-  0% {
-    letter-spacing: -0.5em;
-    -webkit-transform: translateZ(-700px) translateY(-500px);
-            transform: translateZ(-700px) translateY(-500px);
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    -webkit-transform: translateZ(0) translateY(0);
-            transform: translateZ(0) translateY(0);
-    opacity: 1;
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.facebook:hover {
-  background-color: transparent !important;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
