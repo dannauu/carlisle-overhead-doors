@@ -1,0 +1,17 @@
+@media screen and (max-width: 500px) {
+
+    .residentialText {
+        font-size: 10px;
+        line-height: normal;
+    }
+
+    .residentialPadding {
+        padding: 0;
+    }
+
+    /* .h1res {
+        font-size: 20px;
+    } */
+
+
+}

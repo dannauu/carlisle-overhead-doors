@@ -1,8 +1,9 @@
 import React from 'react'
+import './HeroMessage.css'
 
 const HeroMessage = () => {
   return (
-    <div className='text-center'>Are you needing an estimate? Contact me here and I will come out and give you a free estimate</div>
+    <div className='text-center text-4xl bg-blue-800 pt-3 pb-3 text-white italic heroMessageText'>FREE ESTIMATES! Feel free to give me a call at (816)-288-3574 to set one up today</div>
   )
 }
 
