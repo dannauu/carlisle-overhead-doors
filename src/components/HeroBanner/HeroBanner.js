@@ -3,6 +3,7 @@ import './HeroBanner.css';
 import gvPic from '../../assets/img/gv_map.png';
 import heroCommercialPic from '../../assets/img/heroBannerCommercial.jpg';
 import heroBannerInspiration from '../../assets/img/heroBannerInspiration.jpg'
+import { Fade } from 'react-reveal'
 
 const HeroBanner = () => {
   return (
@@ -10,7 +11,8 @@ const HeroBanner = () => {
       {/* <img src={heroBannerImage} alt="" className='heroBannerImage' /> */}
       <h1 className='text-5xl text-center pt-10 navTitleResponsive text-blue-800 italic font-bold'>Carlisle Overhead Doors & Services LLC</h1>
       <section className='flex flex-row pt-10 justify-center heroBannerSection'>
-        <div className="max-w-sm bg-blue-900 bg-opacity-10 rounded-lg shadow-md mr-3 heroBannerResponsive">
+        <Fade bottom>
+        <div className="max-w-sm bg-blue-900 bg-opacity-50 rounded-lg shadow-md mr-3 heroBannerResponsive">
           <a href="#">
           </a>
           <div className="p-5 text-center">
@@ -23,8 +25,9 @@ const HeroBanner = () => {
             </a>
           </div>
         </div>
+        </Fade>
 
-        <div className="max-w-sm bg-blue-900 bg-opacity-10 rounded-lg shadow-md mr-3 heroBannerResponsive">
+        <div className="max-w-sm bg-blue-900 bg-opacity-50 rounded-lg shadow-md mr-3 heroBannerResponsive">
           <a href="#">
           </a>
           <div className="p-5 text-center">

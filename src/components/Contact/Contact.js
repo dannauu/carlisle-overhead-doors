@@ -1,5 +1,6 @@
 import React from 'react'
 import emailjs from 'emailjs-com'
+import './Contact.css'
 
 
 
@@ -68,7 +69,7 @@ const OrderOnline = () => {
     <>
       <div className='container m-auto width' id='formContainer'>
         <div className="mt-6" id='contact'>
-          <label className="block italic mb-2 text-4xl font-medium flex justify-center text-blue-600 centerText">What type of service do you need?</label>
+          <label className="block italic mb-2 text-4xl font-medium flex justify-center text-blue-600 centerText contactTextCenter">What type of service do you need?</label>
           <form onSubmit={sendEmail} className='text-center'>
             <div className='flex justify-center mb-5'>
 
