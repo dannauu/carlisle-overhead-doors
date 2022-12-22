@@ -1,7 +1,4 @@
-import { useState } from 'react'
-import { AiOutlineClose } from "react-icons/ai";
-import GalleryData from './GalleryData'
-import './Gallery.css'
+import React from 'react'
 
 const Gallery = () => {
 
