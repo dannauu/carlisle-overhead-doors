@@ -1,27 +1,35 @@
 import React from 'react'
 import { BsFillTelephoneOutboundFill } from 'react-icons/bs'
 import { MdMarkEmailUnread } from 'react-icons/md'
-import Liftmaster from '../../assets/img/liftmaster.png'
-import Delden from '../../assets/img/Delden-Official-Logo.jpg'
-import Amarr from '../../assets/img/Amarr.jpg'
-import Clopay from '../../assets/img/clopay.png'
+import FirestationService from '../../assets/img/firestationService.jpeg'
+import Residential from '../../assets/img/residential.jpg'
+import Commercial from '../../assets/img/commercial.jpg'
+import Opener from '../../assets/img/service.jpg'
 
 const Services = () => {
   return (
-    <div className='h-screen backdrop-blur-md grid grid-cols-2 gap-4 p-10'>
-      <div className='bg-red-200 p-5'>
-        <h1 className='googleFont text-center text-3xl underline'>Residential Services</h1>
+    <div className='backdrop-blur-md grid grid-cols-2 gap-10 p-10'>
+      <div className='bg-white/40 p-5 rounded-2xl'>
+        <h1 className='googleFont text-center text-3xl underline pb-4'>Residential Services</h1>
+        <img src={Residential} className='h-60 rounded-xl float-left pr-4'></img>
+        <p className=''>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
       </div>
-      <div className='bg-red-200 p-5'>
-        <h1 className='googleFont text-center text-3xl underline'>Commercial Services</h1>
+      <div className='bg-white/40 p-5 rounded-2xl'>
+        <h1 className='googleFont text-center text-3xl underline pb-4'>Commercial Services</h1>
+        <img src={Commercial} className='h-60 rounded-xl float-right pl-4'></img>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
       </div>
-      <div className='bg-red-200 p-5'>
-        <h1 className='googleFont text-center text-3xl underline'>Openers</h1>
+      <div className='bg-white/40 p-5 rounded-2xl'>
+        <h1 className='googleFont text-center text-3xl underline pb-4'>Openers</h1>
+        <img src={Opener} className='h-72 rounded-xl float-left pr-4'></img>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
       </div>
-      <div className='bg-red-200 p-5'>
-        <h1 className='googleFont text-center text-3xl underline'>Parts</h1>
+      <div className='bg-white/40 p-5 rounded-2xl'>
+        <h1 className='googleFont text-center text-3xl underline pb-4'>Parts</h1>
+        <img src={FirestationService} className='h-72 rounded-xl float-right pl-4'></img>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
       </div>
-      <div className='col-span-2 text-black rounded-lg'>
+      <div className='col-span-2 text-black rounded-lg bg-white/40 pb-3'>
         <h1 className='googleFont text-center text-3xl'>Support & Service</h1>
         <p className='text-center text-lg pt-5'>At Carlisle Overhead Doors & Services we take residential and commercial service very seriously. We have served the Kansas City Metro and the surrounding areas since 2007. From simple fixes like pairing remotes or emergency service because your door is hanging in the middle of the opening; we are here to assist you 24/7. Please do not try to fix your garage door yourself, there are a lot of dangerous moving parts to a garage door that I would be happy to help identify with you.</p>
         {/* <div className='grid grid-cols-4 gap-4 place-items-center pt-5 pr-2'>
