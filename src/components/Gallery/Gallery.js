@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { AiOutlineClose } from 'react-icons/ai'
+import GalleryData from './GalleryData'
 
 const Gallery = () => {
 
@@ -10,7 +12,7 @@ const Gallery = () => {
     }
 
     return (
-        <div id='gallery'>
+        <div id='gallery' className='h-screen backdrop-blur-md'>
             <h1 className='text-black font-semibold text-4xl text-center pt-10'>Gallery</h1>
             <div className='mt-10 mb-10'>
                 <div className={model ? "model open" : "model"}>
