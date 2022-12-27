@@ -12,16 +12,16 @@ import Chamberlain from '../../assets/img/Chamberlain-Logo.png'
 
 const LogoSlider = () => {
     return (
-        <div className='bg-white mt-3'>
-            <Marquee gradient={true}>
-                <a href='https://www.liftmaster.com/' target='_blank'><img className='h-24' src={Liftmaster}/></a>
-                <a href='https://www.deldengaragedoor.com/' target='_blank'><img className='h-16' src={Delden}/></a>
-                <a href='https://www.clopaydoor.com/' target='_blank'><img className='h-24' src={Clopay}/></a>
-                <a href='https://www.craftsman.com/products/workspace/garage' target='_blank'><img className='h-24' src={Craftsman}/></a>
-                <a href='https://www.amarr.com/us/en' target='_blank'><img className='h-16' src={Amarr}/></a>
-                <a href='https://www.geniecompany.com/' target='_blank'><img className='h-20' src={Genie}/></a>
-                <a href='https://www.haasdoor.com/' target='_blank'><img className='h-20' src={Haas}/></a>
-                <a href='https://www.chamberlain.com/' target='_blank'><img className='h-20' src={Chamberlain}/></a>
+        <div className='bg-white'>
+            <Marquee gradient={false}>
+                <a href='https://www.liftmaster.com/' target='_blank'><img className='logoSlider' src={Liftmaster} /></a>
+                <a href='https://www.deldengaragedoor.com/' target='_blank'><img className='logoSlider' src={Delden} /></a>
+                <a href='https://www.clopaydoor.com/' target='_blank'><img className='logoSlider' src={Clopay} /></a>
+                <a href='https://www.craftsman.com/products/workspace/garage' target='_blank'><img className='logoSlider' src={Craftsman} /></a>
+                <a href='https://www.amarr.com/us/en' target='_blank'><img className='logoSlider' src={Amarr} /></a>
+                <a href='https://www.geniecompany.com/' target='_blank'><img className='logoSlider' src={Genie} /></a>
+                <a href='https://www.haasdoor.com/' target='_blank'><img className='logoSlider' src={Haas} /></a>
+                <a href='https://www.chamberlain.com/' target='_blank'><img className='logoSlider' src={Chamberlain} /></a>
             </Marquee>
         </div>
     )

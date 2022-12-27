@@ -19,5 +19,12 @@
 }
 
 .marquee {
-    justify-content: space-evenly !important;
+    justify-content: space-around
+}
+
+.logoSlider {
+    height: 75px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    padding: 5px;
 }

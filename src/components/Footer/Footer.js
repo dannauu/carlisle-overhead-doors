@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='text-center p-2'>Carlisle Overhead Doors & Services&trade;. All Rights Reserved</div>
+    <div className='text-center text-white googleFont p-2'>Carlisle Overhead Doors & Services&trade;. All Rights Reserved</div>
   )
 }
 
