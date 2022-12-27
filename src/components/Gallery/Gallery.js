@@ -1,33 +1,19 @@
-import React, { useState } from 'react'
-import { AiOutlineClose } from 'react-icons/ai'
-import GalleryData from './GalleryData'
+import React from 'react'
+import GalleryPics from './GalleryData'
 
 const Gallery = () => {
 
-    const [model, setModel] = useState(false);
-    const [tempimgSrc, setTempImgSrc] = useState('');
-    const getImg = (imgSrc) => {
-        setTempImgSrc(imgSrc);
-        setModel(true);
-    }
 
     return (
-        <div id='gallery' className='h-screen backdrop-blur-md'>
-            <h1 className='text-black font-semibold text-4xl text-center pt-10'>Gallery</h1>
-            <div className='mt-10 mb-10'>
-                <div className={model ? "model open" : "model"}>
-                    <img src={tempimgSrc} alt='' />
-                    <AiOutlineClose onClick={() => setModel(false)} />
-                </div>
-                <div className='gallery'>
-                    {GalleryData.map((item, index) => {
+        <div className='backdrop-blur'>
+            <h1 className='text-center text-white text-3xl font-medium googleFont bg-black/60 p-2'>Gallery</h1>
+            <div className=''>
+                <div className='grid grid-cols-8 gap-4 p-4'>
+                    {GalleryPics.map((item, index) => {
                         return (
-
-                            <div className='pics' key={index} onClick={() => getImg(item.imgSrc)}>
-                                    <img src={item.imgSrc} className='galleryImg' alt='' />
-
+                            <div className='w-full' key={index}>
+                                <img src={item.imgSrc} className='rounded-lg' alt='Gallery Picture' />
                             </div>
-
                         )
                     })
                     }

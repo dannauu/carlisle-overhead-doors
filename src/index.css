@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 .homeBg {
@@ -11,9 +11,13 @@
 }
 
 .logoFont {
-    font-family: 'Londrina Sketch', cursive;
+    font-family: 'Michroma', sans-serif;
 }
 
 .googleFont {
     font-family: 'Permanent Marker', cursive;
+}
+
+.marquee {
+    justify-content: space-evenly !important;
 }
