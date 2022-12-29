@@ -18,7 +18,7 @@ import Img16 from '../../assets/img/GalleryPics/Img16.jpg'
 import Img18 from '../../assets/img/GalleryPics/Img18.jpg'
 import Img19 from '../../assets/img/GalleryPics/Img19.jpg'
 import Img20 from '../../assets/img/GalleryPics/Img20.jpg'
-// import Img21 from '../../assets/img/GalleryPics/Img21.jpg'
+import Img21 from '../../assets/img/GalleryPics/Img21.jpg'
 
 let Data = [
     {
