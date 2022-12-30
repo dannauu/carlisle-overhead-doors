@@ -5,7 +5,7 @@ import Liftmaster from '../../assets/img/liftmaster.png'
 import Clopay from '../../assets/img/clopay.png'
 import Craftsman from '../../assets/img/Craftsman-Logo.png'
 import Amarr from '../../assets/img/Amarr.jpg'
-import Genie from '../../assets/img/Genie.png'
+import Genie from '../../assets/img/Genie.jpg'
 import Haas from '../../assets/img/Haas-Door-Logo.png'
 import Chamberlain from '../../assets/img/Chamberlain-Logo.png'
 

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 .homeBg {
@@ -11,7 +11,7 @@
 }
 
 .logoFont {
-    font-family: 'Michroma', sans-serif;
+    font-family: 'Cinzel', serif;
 }
 
 .googleFont {
@@ -85,9 +85,13 @@
     border-left: 8px solid #fff;
 }
 
+.facebook {
+    font-size: 250px;
+}
+
 .carousel-root {
     outline: none;
-    width: 50%;
+    width: 70%;
     display: flex;
     margin: auto;
     flex-direction: column;
@@ -346,4 +350,13 @@
 
 .carousel:hover .slide .legend {
     opacity: 1;
+}
+
+@media screen and (max-width: 580px) {
+    .logoSlider {
+    height: 45px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    padding: 5px;
+}
 }
