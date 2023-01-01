@@ -357,7 +357,7 @@
         height: 45px;
         aspect-ratio: 3/2;
         object-fit: contain;
-        padding: 5px;
+        padding-left: 5px;
     }
 
     .carousel .slide img {

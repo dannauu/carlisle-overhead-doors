@@ -10,7 +10,7 @@ const About = () => {
 
       <h1 className='text-center text-white text-3xl font-medium googleFont bg-black/60 p-2 sm:text-xl'>About Us</h1>
 
-      <div className=''>
+      <div className='text-white'>
         <h2 className='pt-5 text-center text-xl font-medium italic underline decoration-red-800'>Serving the Kansas City Metro and surrounding areas since 2007.</h2>
         <img src={asdf} className='h-80 float-right p-5 rounded-3xl sm:h-48' />
         <p className='text-lg p-3 sm:text-sm'>Carlisle Overhead Doors & Services is a locally owned and operated company serving the Kansas City Metro and surrounding areas. With over 15 years experience we strive to provide the highest quality work and strong focus on our customers needs.</p>

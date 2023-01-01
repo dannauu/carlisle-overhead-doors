@@ -4,9 +4,9 @@ const Contact = () => {
   return (
     <div className='h-screen backdrop-blur-md'>
       <h1 className='text-center text-white text-3xl font-medium googleFont bg-black/60 p-2'>Contact Us</h1>
-      <h2 className='text-center underline decoration-red-800 text-xl pt-5'>We appreciate your business</h2>
-      <p className='text-center pt-2 font-medium'>Choose what type of service you need and fill out the rest of the form. Expect a call from us within 1-2 business days. If you need emergency service then please call us. <a href='tel:816-288-3574' className='text-red-700 underline cursor-pointer'>816-288-3574</a></p>
-      <form className='text-center p-10 w-2/4 m-auto'>
+      <h2 className='text-center underline decoration-red-800 text-xl pt-5 text-white'>We appreciate your business</h2>
+      <p className='text-center pt-2 font-medium text-white'>Choose what type of service you need and fill out the rest of the form. Expect a call from us within 1-2 business days. If you need emergency service then please call us. <a href='tel:816-288-3574' className='text-red-700 underline cursor-pointer'>816-288-3574</a></p>
+      <form className='text-center p-10 w-2/4 m-auto sm:w-full sm:p-4'>
         <div>
           <label className='text-2xl italic text-white'>Choose Subject:</label>
           <select multiple="" id="" name='bakery-item' className="text-center bg-white border border-red-800 text-red-800 text-sm rounded-lg focus:border-purple-500 block w-full p-2.5">
