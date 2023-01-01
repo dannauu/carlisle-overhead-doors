@@ -17,7 +17,7 @@ function App() {
         <div className="flex flex-wrap text-center mx-auto">
           <h1 className="text-black font-bold text-2xl flex m-auto logoFont sm:text-lg sm:pt-2">Carlisle Overhead Doors & Services</h1>
           <div className="flex m-auto">
-            <ul className="flex flex-row p-4 text-black googleFont text-xl sm:text-xs">
+            <ul className="flex flex-row p-4 text-black googleFont text-xl sm:text-sm">
               <li>
                 <a href="#" className="pr-5" onClick={() => setCurrentRoute('home')}>Home</a>
               </li>
