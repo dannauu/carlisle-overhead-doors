@@ -40,8 +40,8 @@ function App() {
       {currentRoute === 'home' && <div className='h-screen'>
         <LogoSlider/>
         <div className='relative top-12 sm:top-96 sm:pt-20'>
-          <p className='text-6xl font-bold pl-10 sm:text-2xl'><span className='text-red-700'>Top Notch </span>garage <br></br> door installation <br></br> and services <br></br> that you can<br></br> count on <span className='text-red-700'>24/7</span>.</p>
-          <a onClick={() => setCurrentRoute('services')} className='font-medium text-2xl bg-red-700 text-white rounded p-2 relative left-40 top-6 cursor-pointer sm:text-lg sm:left-10'>Learn more</a>
+          <p className='text-6xl font-bold pl-10 sm:text-2xl sm:pl-3'><span className='text-red-700'>Top Notch </span>garage <br></br> door installation <br></br> and services <br></br> that you can<br></br> count on <span className='text-red-700'>24/7</span>.</p>
+          <a onClick={() => setCurrentRoute('services')} className='font-medium text-2xl bg-red-700 text-white rounded p-2 relative left-40 top-6 cursor-pointer sm:text-lg sm:left-3'>Learn more</a>
         </div>
       </div>}
       {currentRoute === 'about' && <About />}
