@@ -365,4 +365,11 @@
         vertical-align: top;
         border: 0;
     }
+
+    .legend {
+        left: 55% !important;
+        width: 80% !important;
+        padding: 4px !important;
+        font-size: 10px !important;
+    }
 }
