@@ -6,7 +6,7 @@ import GrainValleyMap from '../../assets/img/grainValleyMap.png'
 
 const About = () => {
   return (
-    <div className='backdrop-blur-md'>
+    <div className='backdrop-blur-md min-h-screen'>
 
       <h1 className='text-center text-white text-3xl font-medium googleFont bg-black/60 p-2 sm:text-xl'>About Us</h1>
 
