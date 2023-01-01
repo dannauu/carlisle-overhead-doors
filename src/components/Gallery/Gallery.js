@@ -15,6 +15,7 @@ const Gallery = () => {
                     infiniteLoop={true}
                     showIndicators={false}
                     showThumbs={false}
+                    className='test'
                 >
                     {GalleryPics.map((item, index) => {
                         return (

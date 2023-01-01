@@ -354,9 +354,15 @@
 
 @media screen and (max-width: 580px) {
     .logoSlider {
-    height: 45px;
-    aspect-ratio: 3/2;
-    object-fit: contain;
-    padding: 5px;
-}
+        height: 45px;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+        padding: 5px;
+    }
+
+    .carousel .slide img {
+        width: 100%;
+        vertical-align: top;
+        border: 0;
+    }
 }
