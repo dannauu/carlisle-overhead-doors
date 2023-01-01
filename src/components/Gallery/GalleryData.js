@@ -32,127 +32,158 @@ import Img31 from '../../assets/img/GalleryPics/Img31.jpg'
 let Data = [
     {
         id: 1,
-        imgSrc: Img1
+        imgSrc: Img1,
+        desc: 'Description about doors in picture'
     },
     {
         id: 2,
-        imgSrc: Img2
+        imgSrc: Img2,
+        desc: 'Description about doors in picture'
     },
     {
         id: 3,
-        imgSrc: Img3
+        imgSrc: Img3,
+        desc: 'Description about doors in picture'
     },
     {
         id: 4,
-        imgSrc: Img4
+        imgSrc: Img4,
+        desc: 'Description about doors in picture'
     },
     {
         id: 5,
-        imgSrc: Img5
+        imgSrc: Img5,
+        desc: 'Description about doors in picture'
     },
     {
         id: 6,
-        imgSrc: Img6
+        imgSrc: Img6,
+        desc: 'Description about doors in picture'
     },
     {
         id: 7,
-        imgSrc: Img7
+        imgSrc: Img7,
+        desc: 'Description about doors in picture'
     },
     {
         id: 8,
-        imgSrc: Img8
+        imgSrc: Img8,
+        desc: 'Description about doors in picture'
     },
     {
         id: 9,
-        imgSrc: Img9
+        imgSrc: Img9,
+        desc: 'Description about doors in picture'
     },
     {
         id: 10,
-        imgSrc: Img10
+        imgSrc: Img10,
+        desc: 'Description about doors in picture'
     },
     {
         id: 11,
-        imgSrc: Img11
+        imgSrc: Img11,
+        desc: 'Description about doors in picture'
     },
     {
         id: 12,
-        imgSrc: Img12
+        imgSrc: Img12,
+        desc: 'Description about doors in picture'
     },
     {
         id: 13,
-        imgSrc: Img13
+        imgSrc: Img13,
+        desc: 'Description about doors in picture'
     },
     {
         id: 14,
-        imgSrc: Img14
+        imgSrc: Img14,
+        desc: 'Description about doors in picture'
     },
     {
         id: 15,
-        imgSrc: Img15
+        imgSrc: Img15,
+        desc: 'Description about doors in picture'
     },
     {
         id: 16,
-        imgSrc: Img16
+        imgSrc: Img16,
+        desc: 'Description about doors in picture'
     },
     {
         id: 17,
-        imgSrc: Img17
+        imgSrc: Img17,
+        desc: 'Description about doors in picture'
     },
     {
         id: 18,
-        imgSrc: Img18
+        imgSrc: Img18,
+        desc: 'Description about doors in picture'
     },
     {
         id: 19,
-        imgSrc: Img19
+        imgSrc: Img19,
+        desc: 'Description about doors in picture'
     },
     {
         id: 20,
-        imgSrc: Img20
+        imgSrc: Img20,
+        desc: 'Description about doors in picture'
     },
     {
         id: 21,
-        imgSrc: Img21
+        imgSrc: Img21,
+        desc: 'Description about doors in picture'
     },
     {
         id: 22,
-        imgSrc: Img22
+        imgSrc: Img22,
+        desc: 'Description about doors in picture'
     },
     {
         id: 23,
-        imgSrc: Img23
+        imgSrc: Img23,
+        desc: 'Description about doors in picture'
     },
     {
         id: 24,
-        imgSrc: Img24
+        imgSrc: Img24,
+        desc: 'Description about doors in picture'
     },
     {
         id: 25,
-        imgSrc: Img25
+        imgSrc: Img25,
+        desc: 'Description about doors in picture'
     },
     {
         id: 26,
-        imgSrc: Img26
+        imgSrc: Img26,
+        desc: 'Description about doors in picture'
     },
     {
         id: 27,
-        imgSrc: Img27
+        imgSrc: Img27,
+        desc: 'Description about doors in picture'
     },
     {
         id: 28,
-        imgSrc: Img28
+        imgSrc: Img28,
+        desc: 'Description about doors in picture'
     },
     {
         id: 29,
-        imgSrc: Img29
+        imgSrc: Img29,
+        desc: 'Description about doors in picture'
     },
     {
         id: 30,
-        imgSrc: Img30
+        imgSrc: Img30,
+        desc: 'Description about doors in picture'
     },
     {
         id: 31,
-        imgSrc: Img31
+        imgSrc: Img31,
+        desc: 'Description about doors in picture'
     },
 
 ]

@@ -7,7 +7,7 @@ import { Carousel } from 'react-responsive-carousel';
 const Residential = () => {
     return (
         <div className='text-center pt-5 font-medium'>
-            <div className='pb-10 w-4/5 m-auto'>
+            <div className='pb-10 w-4/5 m-auto text-white'>
                 <p className=''>Whether you are looking to update your homes garage doors to add resale value, and or just because it simply needs done, Carlisle Overhead Doors & Services has you covered.</p>
                 <p>We offer Clopay, Amarr, Delden and a few other door manufactures for installation, we prefer to use Clopay as we have found the best quality and over all service from them. Feel free to take a look at pictures of some of the residential installs we have completed using Clopay.</p>
                 <p>Check out <a rel="noreferrer" href='https://www.clopaydoor.com/residential-garage-doors' target='_blank' className='underline text-blue-500 hover:text-blue-900'>Clopay's </a>website to browse door styles and colors. Feel free to contact us for a free estimate.</p>

@@ -6,9 +6,9 @@ import Img18 from '../../assets/img/GalleryPics/Img18.jpg'
 const ServiceParts = () => {
   return (
     <div className='text-center pt-5 font-medium'>
-            <div className='pb-10 '>
+            <div className='pb-10 w-4/5 m-auto text-white'>
                 <p className=''>Carlisle Overhead Doors & Services offers emergency service 24 hours a day 7 days a week. </p>
-                <p>Rather you accidentally back into your garage door, or you simply need a new opener, we have you covered. Our experienced technician will come out and inspect your garage door and opener and then recommend the necessary path forward. Sometimes you may just need parts to get your garage door working as expected, we offer new parts for your garage door and a lot of the time have what you need on our truck. <br></br> Don't hesitate to contact us at <a href='tel:816-288-3574' className='text-red-700 underline cursor-pointer'>816-288-3574</a></p>
+                <p>Rather you accidentally back into your garage door, or you simply need a new opener, we have you covered. Our experienced technician will come out and inspect your garage door and opener and then recommend the necessary path forward. Sometimes you may just need parts to get your garage door working as expected, we offer new parts for your garage door and a lot of the time have what you need on our truck. Don't hesitate to contact us at <a href='tel:816-288-3574' className='text-red-700 underline cursor-pointer'>816-288-3574</a></p>
             </div>
 
             <Carousel emulateTouch={true} autoPlay={true} infiniteLoop={true}>

@@ -21,6 +21,7 @@ const Gallery = () => {
                         return (
                             <div className='w-full' key={index}>
                                 <img src={item.imgSrc} className='rounded-lg' alt='Gallery Picture' />
+                                <p className="legend">{item.desc}</p>
                             </div>
                         )
                     })
